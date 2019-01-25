@@ -27,15 +27,18 @@ body {
   width: 100%;
 }
 
-.unit {
+figure {
   position: relative;
+  margin: 0;
 }
 
-p {
+figcaption {
   position: absolute;
+  bottom: 1rem;
+  left: 1rem;
   max-width: 15em;
   color: #fff;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.600);
   border-radius: 1rem;
-  padding: .5rem;
+  padding: 1rem;
 }
